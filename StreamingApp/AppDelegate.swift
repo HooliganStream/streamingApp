@@ -6,6 +6,14 @@
 //
 
 import UIKit
+let padding:CGFloat = 10
+let sectionInsets = UIEdgeInsets(
+      top: 10.0,
+      left: 10.0,
+      bottom: 10.0,
+      right: 10.0)
+
+let itemsPerRow: CGFloat = 1
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

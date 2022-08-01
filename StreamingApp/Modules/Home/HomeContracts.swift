@@ -35,7 +35,7 @@ protocol PresenterToRouterHomeProtocol {
   
 }
 protocol HomeWireFrameProtocol {
-    static func createWeatherModule() -> HomeView
+    static func createHomeModule() -> HomeView
 
 }
 

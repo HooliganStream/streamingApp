@@ -19,5 +19,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>EVENT_ENDPOINT</key>
+	<string>${EVENT_ENDPOINT}</string>
+	<key>SCHEDULE_ENDPOINT</key>
+	<string>${SCHEDULE_ENDPOINT}</string>
 </dict>
 </plist>

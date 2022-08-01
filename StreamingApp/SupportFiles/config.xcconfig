@@ -1,0 +1,12 @@
+//
+//  config.xcconfig
+//  StreamingApp
+//
+//  Created by FGX on 2022/08/01.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+EVENT_ENDPOINT = us-central1-dazn-sandbox.cloudfunctions.net/getEvents
+SCHEDULE_ENDPOINT = us-central1-dazn-sandbox.cloudfunctions.net/getSchedule

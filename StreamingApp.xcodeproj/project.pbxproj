@@ -19,6 +19,24 @@
 		994EAA7E289815A20020A32F /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA7D289815A20020A32F /* HomeInteractor.swift */; };
 		994EAA80289815FD0020A32F /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA7F289815FD0020A32F /* HomeRouter.swift */; };
 		994EAA82289816700020A32F /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA81289816700020A32F /* HomeWireFrame.swift */; };
+		994EAA85289823E00020A32F /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA84289823E00020A32F /* EventView.swift */; };
+		994EAA87289823F40020A32F /* EventPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA86289823F40020A32F /* EventPresenter.swift */; };
+		994EAA892898240A0020A32F /* EventContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA882898240A0020A32F /* EventContracts.swift */; };
+		994EAA8B289824240020A32F /* EventInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA8A289824240020A32F /* EventInteractor.swift */; };
+		994EAA8D289824370020A32F /* EventRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA8C289824370020A32F /* EventRouter.swift */; };
+		994EAA8F289824460020A32F /* EventWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA8E289824460020A32F /* EventWireFrame.swift */; };
+		994EAA912898245F0020A32F /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA902898245F0020A32F /* ScheduleView.swift */; };
+		994EAA94289824900020A32F /* SchedulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA93289824900020A32F /* SchedulePresenter.swift */; };
+		994EAA96289824A10020A32F /* ScheduleContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA95289824A10020A32F /* ScheduleContracts.swift */; };
+		994EAA98289824BF0020A32F /* ScheduleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA97289824BF0020A32F /* ScheduleInteractor.swift */; };
+		994EAA9A289824D20020A32F /* ScheduleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA99289824D20020A32F /* ScheduleRouter.swift */; };
+		994EAA9C289824E20020A32F /* ScheduleWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA9B289824E20020A32F /* ScheduleWireFrame.swift */; };
+		994EAA9F2898412F0020A32F /* ConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAA9E2898412F0020A32F /* ConfigTests.swift */; };
+		994EAAA22898449A0020A32F /* HttpRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAAA1289844990020A32F /* HttpRequestService.swift */; };
+		994EAAA5289846C10020A32F /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAAA4289846C00020A32F /* EventData.swift */; };
+		994EAAAA28984C680020A32F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAAA928984C680020A32F /* ImageView.swift */; };
+		994EAAAD28986B600020A32F /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAAAC28986B600020A32F /* DateFormat.swift */; };
+		994EAAB12898849B0020A32F /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EAAB02898849B0020A32F /* EventCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +73,25 @@
 		994EAA7D289815A20020A32F /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		994EAA7F289815FD0020A32F /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		994EAA81289816700020A32F /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
+		994EAA84289823E00020A32F /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		994EAA86289823F40020A32F /* EventPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPresenter.swift; sourceTree = "<group>"; };
+		994EAA882898240A0020A32F /* EventContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContracts.swift; sourceTree = "<group>"; };
+		994EAA8A289824240020A32F /* EventInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInteractor.swift; sourceTree = "<group>"; };
+		994EAA8C289824370020A32F /* EventRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRouter.swift; sourceTree = "<group>"; };
+		994EAA8E289824460020A32F /* EventWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventWireFrame.swift; sourceTree = "<group>"; };
+		994EAA902898245F0020A32F /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		994EAA93289824900020A32F /* SchedulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePresenter.swift; sourceTree = "<group>"; };
+		994EAA95289824A10020A32F /* ScheduleContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleContracts.swift; sourceTree = "<group>"; };
+		994EAA97289824BF0020A32F /* ScheduleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInteractor.swift; sourceTree = "<group>"; };
+		994EAA99289824D20020A32F /* ScheduleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRouter.swift; sourceTree = "<group>"; };
+		994EAA9B289824E20020A32F /* ScheduleWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWireFrame.swift; sourceTree = "<group>"; };
+		994EAA9D28983FC40020A32F /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
+		994EAA9E2898412F0020A32F /* ConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigTests.swift; sourceTree = "<group>"; };
+		994EAAA1289844990020A32F /* HttpRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestService.swift; sourceTree = "<group>"; };
+		994EAAA4289846C00020A32F /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		994EAAA928984C680020A32F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		994EAAAC28986B600020A32F /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		994EAAB02898849B0020A32F /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +142,10 @@
 		994EAA4228980D350020A32F /* StreamingApp */ = {
 			isa = PBXGroup;
 			children = (
+				994EAAAB28986B3F0020A32F /* Helpers */,
+				994EAAA828984C520020A32F /* Extensions */,
+				994EAAA3289846420020A32F /* Entities */,
+				994EAAA0289844540020A32F /* Services */,
 				994EAA75289810270020A32F /* Modules */,
 				994EAA7428980FEA0020A32F /* SupportFiles */,
 				994EAA4328980D350020A32F /* AppDelegate.swift */,
@@ -117,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				994EAA5A28980D370020A32F /* StreamingAppTests.swift */,
+				994EAA9E2898412F0020A32F /* ConfigTests.swift */,
 			);
 			path = StreamingAppTests;
 			sourceTree = "<group>";
@@ -135,6 +177,7 @@
 			children = (
 				994EAA4C28980D370020A32F /* Assets.xcassets */,
 				994EAA5128980D370020A32F /* Info.plist */,
+				994EAA9D28983FC40020A32F /* config.xcconfig */,
 			);
 			path = SupportFiles;
 			sourceTree = "<group>";
@@ -142,6 +185,8 @@
 		994EAA75289810270020A32F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				994EAA92289824680020A32F /* Schedule */,
+				994EAA832898237A0020A32F /* Event */,
 				994EAA76289810390020A32F /* Home */,
 			);
 			path = Modules;
@@ -158,6 +203,73 @@
 				994EAA81289816700020A32F /* HomeWireFrame.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		994EAA832898237A0020A32F /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				994EAAAF2898847D0020A32F /* Views */,
+				994EAA84289823E00020A32F /* EventView.swift */,
+				994EAA86289823F40020A32F /* EventPresenter.swift */,
+				994EAA882898240A0020A32F /* EventContracts.swift */,
+				994EAA8A289824240020A32F /* EventInteractor.swift */,
+				994EAA8C289824370020A32F /* EventRouter.swift */,
+				994EAA8E289824460020A32F /* EventWireFrame.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		994EAA92289824680020A32F /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				994EAA902898245F0020A32F /* ScheduleView.swift */,
+				994EAA93289824900020A32F /* SchedulePresenter.swift */,
+				994EAA95289824A10020A32F /* ScheduleContracts.swift */,
+				994EAA97289824BF0020A32F /* ScheduleInteractor.swift */,
+				994EAA99289824D20020A32F /* ScheduleRouter.swift */,
+				994EAA9B289824E20020A32F /* ScheduleWireFrame.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		994EAAA0289844540020A32F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				994EAAA1289844990020A32F /* HttpRequestService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		994EAAA3289846420020A32F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				994EAAA4289846C00020A32F /* EventData.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		994EAAA828984C520020A32F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				994EAAA928984C680020A32F /* ImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		994EAAAB28986B3F0020A32F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				994EAAAC28986B600020A32F /* DateFormat.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		994EAAAF2898847D0020A32F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				994EAAB02898849B0020A32F /* EventCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,14 +401,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994EAAAD28986B600020A32F /* DateFormat.swift in Sources */,
 				994EAA7A289811F80020A32F /* HomeContracts.swift in Sources */,
+				994EAAB12898849B0020A32F /* EventCell.swift in Sources */,
+				994EAA8B289824240020A32F /* EventInteractor.swift in Sources */,
 				994EAA82289816700020A32F /* HomeWireFrame.swift in Sources */,
+				994EAAA22898449A0020A32F /* HttpRequestService.swift in Sources */,
+				994EAA98289824BF0020A32F /* ScheduleInteractor.swift in Sources */,
 				994EAA78289811AF0020A32F /* HomeView.swift in Sources */,
+				994EAA85289823E00020A32F /* EventView.swift in Sources */,
+				994EAA912898245F0020A32F /* ScheduleView.swift in Sources */,
 				994EAA80289815FD0020A32F /* HomeRouter.swift in Sources */,
+				994EAA9A289824D20020A32F /* ScheduleRouter.swift in Sources */,
+				994EAA9C289824E20020A32F /* ScheduleWireFrame.swift in Sources */,
+				994EAA94289824900020A32F /* SchedulePresenter.swift in Sources */,
+				994EAAAA28984C680020A32F /* ImageView.swift in Sources */,
+				994EAAA5289846C10020A32F /* EventData.swift in Sources */,
 				994EAA4428980D350020A32F /* AppDelegate.swift in Sources */,
+				994EAA892898240A0020A32F /* EventContracts.swift in Sources */,
 				994EAA7E289815A20020A32F /* HomeInteractor.swift in Sources */,
 				994EAA7C289814160020A32F /* HomePresenter.swift in Sources */,
 				994EAA4628980D350020A32F /* SceneDelegate.swift in Sources */,
+				994EAA8F289824460020A32F /* EventWireFrame.swift in Sources */,
+				994EAA96289824A10020A32F /* ScheduleContracts.swift in Sources */,
+				994EAA8D289824370020A32F /* EventRouter.swift in Sources */,
+				994EAA87289823F40020A32F /* EventPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				994EAA5B28980D370020A32F /* StreamingAppTests.swift in Sources */,
+				994EAA9F2898412F0020A32F /* ConfigTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +465,7 @@
 /* Begin XCBuildConfiguration section */
 		994EAA6828980D370020A32F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994EAA9D28983FC40020A32F /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -395,6 +526,7 @@
 		};
 		994EAA6928980D370020A32F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994EAA9D28983FC40020A32F /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -449,6 +581,7 @@
 		};
 		994EAA6B28980D370020A32F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994EAA9D28983FC40020A32F /* config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +608,7 @@
 		};
 		994EAA6C28980D370020A32F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994EAA9D28983FC40020A32F /* config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -501,6 +635,7 @@
 		};
 		994EAA6E28980D370020A32F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994EAA9D28983FC40020A32F /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +656,7 @@
 		};
 		994EAA6F28980D370020A32F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994EAA9D28983FC40020A32F /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +677,7 @@
 		};
 		994EAA7128980D370020A32F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994EAA9D28983FC40020A32F /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,6 +696,7 @@
 		};
 		994EAA7228980D370020A32F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994EAA9D28983FC40020A32F /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
