@@ -7,7 +7,7 @@
 
 import Foundation
 class HomeWireFrame : HomeWireFrameProtocol {
-    static func createWeatherModule() -> HomeView {
+    static func createHomeModule() -> HomeView {
         let view: HomeView & PresenterToViewHomeProtocol = HomeView()
         var interactor: PresenterToInteractorHomeProtocol = HomeInteractor()
         var presenter: ViewToPresenterHomeProtocol & InteractorToPresenterHomeProtocol = HomePresenter()

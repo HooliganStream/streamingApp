@@ -13,9 +13,29 @@ class HomeView: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
-        print("View did Load")
+        self.delegate = self
+        self.title = "Overview"
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+      
+        let eventTab = EventWireFrame.createEventModule()
+        let eventBarItem = UITabBarItem(title: "Event", image: UIImage(systemName: "calendar.circle"), selectedImage: UIImage(systemName: "calendar.circle.fill"))
+        eventTab.tabBarItem = eventBarItem
+        
+        
+        let scheduleTab = ScheduleWireFrame.createScheduleModule()
+        let scheduleBarItem = UITabBarItem(title: "Schedule", image: UIImage(systemName: "clock"), selectedImage: UIImage(systemName: "clock.fill"))
+        scheduleTab.tabBarItem = scheduleBarItem
+        
+        self.viewControllers = [eventTab, scheduleTab]
     }
 }
-extension HomeView: PresenterToViewHomeProtocol {
-
+extension HomeView: UITabBarControllerDelegate {
+    // UITabBarControllerDelegate method
+       func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+          
+       }
+    
 }
+extension HomeView: PresenterToViewHomeProtocol {}
