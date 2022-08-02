@@ -13,7 +13,9 @@ class ScheduleView: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         presenter?.viewDidLoad()
+        
         guard let collectionView = collectionView,
         let layout = collectionViewLayout as? UICollectionViewFlowLayout else {
                    return

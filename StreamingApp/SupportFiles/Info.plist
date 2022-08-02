@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>EVENT_ENDPOINT</key>
+	<string>${EVENT_ENDPOINT}</string>
+	<key>SCHEDULE_ENDPOINT</key>
+	<string>${SCHEDULE_ENDPOINT}</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -19,9 +23,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>EVENT_ENDPOINT</key>
-	<string>${EVENT_ENDPOINT}</string>
-	<key>SCHEDULE_ENDPOINT</key>
-	<string>${SCHEDULE_ENDPOINT}</string>
 </dict>
 </plist>
