@@ -16,6 +16,7 @@ class EventView: UICollectionViewController {
         super.viewDidLoad()
         presenter?.viewDidLoad()
         
+        
         guard let collectionView = collectionView,
         let layout = collectionViewLayout as? UICollectionViewFlowLayout else {
                    return

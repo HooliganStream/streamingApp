@@ -14,13 +14,14 @@ class HomeView: UITabBarController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         self.delegate = self
-        self.title = "Overview"
+        self.title = "Events"
+     
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
       
         let eventTab = EventWireFrame.createEventModule()
-        let eventBarItem = UITabBarItem(title: "Event", image: UIImage(systemName: "calendar.circle"), selectedImage: UIImage(systemName: "calendar.circle.fill"))
+        let eventBarItem = UITabBarItem(title: "Events", image: UIImage(systemName: "calendar.circle"), selectedImage: UIImage(systemName: "calendar.circle.fill"))
         eventTab.tabBarItem = eventBarItem
         
         
@@ -34,6 +35,10 @@ class HomeView: UITabBarController {
 extension HomeView: UITabBarControllerDelegate {
     // UITabBarControllerDelegate method
        func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+           let index = self.viewControllers?.index(of: viewController)!
+           
+           self.title = index == 0 ? "Events": "Schedule"
+           
           
        }
     
